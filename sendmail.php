@@ -15,8 +15,10 @@ $headers = 'From: ' . $_POST["name"] . '<' . $_POST["email"] . '>' . "\r\n" .
     'Reply-To: ' . $_POST["email"] . "\r\n" .
     'X-Mailer: PHP/' . phpversion();
 
+$message = 'From: ' . $_POST["name"] . "\n" . 'E-mail: ' . $_POST["email"] . "\n" . 'Phone: ' . $_POST["subject"] . "\n" . 'Message: ' . $_POST["message"] . "\n";
+
   //
-  mail( "spambox@designlab.co", $_POST['subject'], $_POST['message'], $headers );
+  mail( "oakrasnov@yandex.ru, dmitry@evecco.com", $_POST['name'] , $message , $headers );
  
   //      ^
   //  Replace with your email 

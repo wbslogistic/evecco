@@ -62,6 +62,7 @@ Designed By: Mizanur Rahman
 -----------------------------------------*/
 
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic|Raleway:500,600,700);
+@import url(<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,500italic,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>);
 
 /* --------------------------------------
 =========================================
@@ -79,7 +80,7 @@ html {
 
 body {
 	background: #ffffff;
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
 	color: #727272;
 	line-height: 25px;
@@ -230,7 +231,7 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	color: #323232;
 	margin-bottom: 0;
 	margin-top: 0;
@@ -257,7 +258,7 @@ h3 {
 h4 {
 	font-size: 1.25rem;
 	line-height: 2rem;
-	font-weight: 600;
+	font-weight: 400;
 }
 
 h5 {
@@ -401,6 +402,7 @@ header .vertical-registration-form {
     color: #ffffff;
     margin-top: 40px;
     line-height: 30px;
+    font-weight: 300;
 }
 
 .button-container {
@@ -459,7 +461,7 @@ header .vertical-registration-form {
 }
 
 .sticky-navigation .navbar-nav > li > a {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-size: 13px;
 	text-transform: uppercase;
 	font-weight: 600;
@@ -791,7 +793,7 @@ object {
    4.9.1 CALL TO ACTION WITH TEXT/BUTTON          
 -----------------------------------------*/
 .cta-section {
-	background: url(../images/bg-image-2.jpg) no-repeat center fixed;
+	background: url(../images/bg-image-1.jpg) no-repeat center fixed;
 	-webkit-background-size: cover;
 	background-size: cover;
 }
@@ -802,9 +804,8 @@ object {
 
 .cta-section h2 {
 	color: #ffffff;
-	font-weight: 700;
+	font-weight: 500;
 	margin-top: 15px;
-	margin-bottom: 40px;
 }
 
 .cta-section h3 {
@@ -881,6 +882,7 @@ object {
 .contact-form .success,
 .contact-form .error {
 	display: none;
+	color: #fff;
 }
 
 .contact-form .input-box,
@@ -930,11 +932,19 @@ footer {
 
 .footer-logo {
 	max-width: 180px;
-	margin: auto;
+	display: inline;
+	margin: 20px 20px;
+	padding: 20px 20px;
+}
+
+.footer-logo img {
+	max-width: 180px;
+	display: inline;
+	padding: 20px 20px;
 }
 
 .copyright {
-	margin-top: 15px;
+	margin-top: 40px;
 	margin-bottom: 15px;
 }
 
@@ -950,4 +960,29 @@ footer {
 
 .social-icons li a:hover {
 	text-decoration: none;
+}
+
+.points {
+	font-weight: 600;
+}
+
+.flag_uk{
+
+	background: url(../images/uk.png) no-repeat ;
+	padding: 15px;
+}
+
+.flag_ru{
+
+	background: url(../images/ru.png) no-repeat ;
+	padding: 15px;
+}
+
+#illustration {
+	width: 76%;
+}
+
+#attention {
+	color: #fff;
+	font-size: 12px;
 }
